@@ -18,12 +18,12 @@ export const signUp = (email, password) => {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyD0Uft4yZzrBgg799AIQqOZ2ivgQJKBs2I",
-    authDomain: "leetcode-tracker-cf248.firebaseapp.com",
-    projectId: "leetcode-tracker-cf248",
-    storageBucket: "leetcode-tracker-cf248.appspot.com",
-    messagingSenderId: "19881691180",
-    appId: "1:19881691180:web:261cf6d70056f97a646989"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   };
 
 // Initialize Firebase
