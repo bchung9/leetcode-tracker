@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #282c34; /* Dark background to contrast white text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: white; /* Make the title white */
+}
+
+.problem-form,
+.problem-list {
+  width: 100%; /* Ensure form and list take the full width */
+}
+
+.problem-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.problem-form input,
+.problem-form select {
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.problem-form button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.problem-list {
+  margin-top: 20px;
+}
+
+.problem-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.problem-item:hover {
+  background-color: #444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px) scale(1.05); /* Slightly move upwards and enlarge */
+}
+
+.problem-item p {
+  margin: 0;
+  flex: 1;
+  color: white;
+}
+
+.problem-item:hover p {
+  text-decoration: underline;
+}
+
+.problem-item.completed p {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+
+
+
